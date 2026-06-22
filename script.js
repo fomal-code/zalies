@@ -94,7 +94,7 @@
     const encoded = encodeURIComponent(message);
 
     // Replace XXXXXXXXXX with your actual WhatsApp number (international format, no +)
-    const waNumber = '9134567890'; // Example: '1234567890' for +1 234 567 890
+    const waNumber = '2349138947809'; // Example: '1234567890' for +1 234 567 890
     const url = `https://wa.me/${waNumber}?text=${encoded}`;
 
     showToast('Redirecting to WhatsApp…');
@@ -135,7 +135,7 @@
 
       // Build WhatsApp message from form
       const waText = `Hello Zaliels,\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject || 'General Inquiry'}\n\n${message}`;
-      const waNumber = '9138947809'; // replace with your number
+      const waNumber = '2349138947809'; // replace with your number
       const waUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(waText)}`;
 
       // Show success state
